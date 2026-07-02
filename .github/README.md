@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codeguruprofiler`](https://www.npmjs.com/package/@aws-sdk/client-codeguruprofiler/v/3.1077.0).
+[`@aws-sdk/client-codeguruprofiler`](https://www.npmjs.com/package/@aws-sdk/client-codeguruprofiler/v/3.1078.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-codeguruprofiler - [https://cloud-sdk-builds.github.io/?sdk=client-codeguruprofiler](https://cloud-sdk-builds.github.io/?sdk=client-codeguruprofiler)
-- @aws-sdk/client-codeguruprofiler v3.1077.0 - [https://cloud-sdk-builds.github.io/?sdk=client-codeguruprofiler&version=3.1077.0](https://cloud-sdk-builds.github.io/?sdk=client-codeguruprofiler&version=3.1077.0)
+- @aws-sdk/client-codeguruprofiler v3.1078.0 - [https://cloud-sdk-builds.github.io/?sdk=client-codeguruprofiler&version=3.1078.0](https://cloud-sdk-builds.github.io/?sdk=client-codeguruprofiler&version=3.1078.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1077.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1078.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-3MLCR4LXuoHa9022qs60GBOHXEjgHjqpk1orH0rkvd0UgtCow9x+KkJ1hSU3ahRX
+sha384-PmNLm68r8I071qijmOKrOS0BO994NT7GYEYjCOWkzUo95rGtYsA1nv92KVtBo0zU
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codeguruprofiler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1077.0/index.min.mjs"
+            "@aws-sdk/client-codeguruprofiler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1078.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1077.0/index.min.mjs": "sha384-3MLCR4LXuoHa9022qs60GBOHXEjgHjqpk1orH0rkvd0UgtCow9x+KkJ1hSU3ahRX"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1078.0/index.min.mjs": "sha384-PmNLm68r8I071qijmOKrOS0BO994NT7GYEYjCOWkzUo95rGtYsA1nv92KVtBo0zU"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codeguruprofiler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1077.0/index.min.mjs"
+                        "@aws-sdk/client-codeguruprofiler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1078.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1077.0/index.min.mjs": "sha384-3MLCR4LXuoHa9022qs60GBOHXEjgHjqpk1orH0rkvd0UgtCow9x+KkJ1hSU3ahRX"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguruprofiler@3.1078.0/index.min.mjs": "sha384-PmNLm68r8I071qijmOKrOS0BO994NT7GYEYjCOWkzUo95rGtYsA1nv92KVtBo0zU"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1077.0`)
+* Always pin to a specific version (`@3.1078.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codeguruprofiler/blob/refs/tags/3.1077.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codeguruprofiler/blob/refs/tags/3.1078.0/LICENSE
 ```
 
 ---
